@@ -27,7 +27,7 @@ Despues de clonar el archivo para correrlo con:
 
 Como primer paso debemos crear el repositorio en github.
 
-![Screenshot](image1.png)
+![Screenshot](imagenes/image1.png)
 
 Luego de eso debemos hacer la configuracion basica de usuario,correo,y remote.
 
