@@ -5,7 +5,7 @@
 
 >Para clonar el archivo 
 
-git clone https://github.com/andresflorezp/andresflorezp/ARSW-LAB1.git
+git clone https://github.com/andresflorezp/ARSW-LAB1.git
 >
 ### Prerrequisitos
 * Maven
@@ -101,7 +101,8 @@ Luego hacemos git pull origin master para traer los cambios y por ultimo subir e
 
 * ¿Cuál es el propósito de las dependencias y las etiquetas de dependencia en el archivo POM?
 
-       El proposito de los tags es mantener una estructura ordenada.
+       El proposito de los tags es mantener una estructura ordenada y ademas permitir no estar cargando los jar de 
+       las librerias sino solo llamarlas cuando uno las necesite.
 
 * Los tres principales ciclos de vida de Maven son clean, default y site. Describe cada uno de ellos.
 
