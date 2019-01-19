@@ -27,7 +27,7 @@ Despues de clonar el archivo para correrlo con:
 
 Como primer paso debemos crear el repositorio en github.
 
-![Screenshot](screenshot.png)
+![Screenshot](image1.png)
 
 Luego de eso debemos hacer la configuracion basica de usuario,correo,y remote.
 
@@ -43,7 +43,7 @@ Los comandos son los siguientes:
 
 En lo siguiente hacemos la configuracion:
 
-![Screenshot](screenshot.png)
+![Screenshot](image2.png)
 
 Si queremos añadir los archivos al repositorio local lo hacemos con **git add .** Para hacer un commit **git commit -m “Descripcion del commit”**.
 
@@ -51,24 +51,24 @@ Siguiendo con los problemas indicados el usuario 1, en este caso Andres Giovanne
 
 Mostramos lo que se realiza en el primer problema Antes que nada debemos traer de el repositorio remoto a donde estamos trabajando para que la rama se actualize para ello utilizamos **git pull –rebase origin master**.
 
-![Screenshot](screenshot.png)
+![Screenshot](image3.png)
 
 y luego seguimos los pasos mencionados anteriormente.
 
-![Screenshot](screenshot.png)
+![Screenshot](image4.png)
 
 Para el primer problema mostramos que es aceptado.
 
-![Screenshot](screenshot.png)
+![Screenshot](image5.png)
 
 Luego el segundo compañero es decir Juan Nicolas Nontoa Caballero hace los comandos básicos de configuración de git es decir el user,email,remote. **git pull origin master-→ Permite traer las cosas de la rama** y luego resuelve el problema.
 
 
-![Screenshot](screenshot.png)
+![Screenshot](image6.png)
 
 Luego hacemos git pull origin master para traer los cambios y por ultimo subir el reporte al github.
 
-![Screenshot](screenshot.png)
+![Screenshot](image7.png)
 
 ## Parte MAVEN
 
