@@ -113,11 +113,11 @@ dentro de la aplicación), es decir, este será el nombre del jar.
 
 * Using the terminal execute the command mvn package. What is this command using for?
 
- * Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
+       * Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
 
 * Using the terminal execute the command mvn install. What is this command using for?
 
- * Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
+       * Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
 
 * Generate a new maven project in other folder using the maven command line tools, this project should has as groupId "edu.eci" and as artifactId "another-maven-project". 
 
