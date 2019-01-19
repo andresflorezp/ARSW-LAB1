@@ -61,14 +61,17 @@ Para el primer problema mostramos que es aceptado.
 
 ![Screenshot](image5.png)
 
-Luego el segundo compañero es decir Juan Nicolas Nontoa Caballero hace los comandos básicos de configuración de git es decir el user,email,remote. **git pull origin master-→ Permite traer las cosas de la rama** y luego resuelve el problema.
-
+Luego el segundo compañero es decir Juan Nicolas Nontoa Caballero hace los comandos básicos de configuración de git es decir el user,email,remote. 
 
 ![Screenshot](image6.png)
 
-Luego hacemos git pull origin master para traer los cambios y por ultimo subir el reporte al github.
+**git pull origin master-→ Permite traer las cosas de la rama** y luego resuelve el problema.
 
 ![Screenshot](image7.png)
+
+Luego hacemos git pull origin master para traer los cambios y por ultimo subir el reporte al github.
+
+![Screenshot](image8.png)
 
 ## Parte MAVEN
 
