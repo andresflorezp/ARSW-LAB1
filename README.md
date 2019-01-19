@@ -80,44 +80,44 @@ Luego hacemos git pull origin master para traer los cambios y por ultimo subir e
 
 * What do means the groupId, artifactId properties in the command?
 
- * groupId es el identificador único de la organización o grupo que crea el proyecto (se podría decir que es el identificador de la aplicación), y artifactId es el identificador único del artefacto principal de este proyecto (se podría decir que es el identificador del módulo
+       groupId es el identificador único de la organización o grupo que crea el proyecto (se podría decir que es el identificador de la aplicación), y artifactId es el identificador único del artefacto principal de este proyecto (se podría decir que es el identificador del módulo
 dentro de la aplicación), es decir, este será el nombre del jar.
 
 * Describe the content of the directory that has been created.
 
- * Se creo un proyecto el cual contiene el POM.xml y una carpeta src en la cual tiene dos carpetas, main y test.
+       Se creo un proyecto el cual contiene el POM.xml y una carpeta src en la cual tiene dos carpetas, main y test.
 
 * What do means the word SNAPSHOT in the version value?
 
- * Al indicar SNAPSHOT se quiere decir que es una versión evolutiva, es decir que estamos trabajando para obtener al versión 1.0.
-
+       Al indicar SNAPSHOT se quiere decir que es una versión evolutiva, es decir que estamos trabajando para obtener al versión 1.0.
+       
 * What is the purpose of the packing tag into the POM file?
 
- * Con packaging se indica el tipo de empaquetado que hay que hacer con el proyecto. Podemos usar jar, war, ear, pom.
+       Con packaging se indica el tipo de empaquetado que hay que hacer con el proyecto. Podemos usar jar, war, ear, pom.
 
 * What is the purpose of the dependencies and dependency tags into the POM file?
 
- * El proposito de los tags es mantener una estructura ordenada.
+       El proposito de los tags es mantener una estructura ordenada.
 
-* The three principal Maven lifecycles areclean, defaultand site. Describe each one.
+The three principal Maven lifecycles areclean, defaultand site. Describe each one.
 
- * Clean Elimina todos los .class y .jar generados. Después de este comando se puede comenzar un compilado desde cero.
+       Clean Elimina todos los .class y .jar generados. Después de este comando se puede comenzar un compilado desde cero.
  
- * Site  Genera un sitio web con la información de nuestro proyecto. Dicha información debe escribirse en el fichero pom.xml y ficheros .apt separados.
+       Site  Genera un sitio web con la información de nuestro proyecto. Dicha información debe escribirse en el fichero pom.xml y ficheros .apt separados.
  
- * Default no existe como comando de maven.
+       Default no existe como comando de maven.
 
 * Using the terminal execute the command mvn compile. What is this command using for? What are transitive dependencies?
 
- * Compila el codigo fuente del proyecto y sigue la fase de tests.
+       Compila el codigo fuente del proyecto y sigue la fase de tests.
 
 * Using the terminal execute the command mvn package. What is this command using for?
 
-       * Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
+       Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
 
 * Using the terminal execute the command mvn install. What is this command using for?
 
-       * Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
+       Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
 
 * Generate a new maven project in other folder using the maven command line tools, this project should has as groupId "edu.eci" and as artifactId "another-maven-project". 
 
