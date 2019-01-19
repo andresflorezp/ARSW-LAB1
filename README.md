@@ -77,6 +77,8 @@ Luego hacemos git pull origin master para traer los cambios y por ultimo subir e
 
 **mvn archetype:generate -B -DgroupId=edu.eci -DartifactId=file-spy**
 
+![Screenshot](maven1.png)
+
 * What do means the -B option in the command?
        
 * What do means the -D option in the command?
@@ -113,14 +115,22 @@ The three principal Maven lifecycles areclean, defaultand site. Describe each on
 * Using the terminal execute the command mvn compile. What is this command using for? What are transitive dependencies?
 
        Compila el codigo fuente del proyecto y sigue la fase de tests.
+       
+ ![Screenshot](compile.png)
 
 * Using the terminal execute the command mvn package. What is this command using for?
 
        Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
+       
+![Screenshot](package.png)
 
 * Using the terminal execute the command mvn install. What is this command using for?
 
        Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
+       
+![Screenshot](install.png)
+
+![Screenshot](install2.png)
 
 * Generate a new maven project in other folder using the maven command line tools, this project should has as groupId "edu.eci" and as artifactId "another-maven-project". 
 
