@@ -125,9 +125,9 @@ The three principal Maven lifecycles areclean, defaultand site. Describe each on
 
 ## Autores
 
-* **Andres Giovanne Florez Perez**  ARSW-LAB1 * * - [andresflorezp] (https://github.com/andresflorezp)
+* **Andres Giovanne Florez Perez**  ARSW-LAB1 - [andresflorezp] (https://github.com/andresflorezp)
 
-* **Juan Nicolas Nontoa Caballero**  ARSW-LAB1 * * - [nontoa] (https://github.com/nontoa)
+* **Juan Nicolas Nontoa Caballero**  ARSW-LAB1 - [nontoa] (https://github.com/nontoa)
 
 Consulte también la lista de [colaboradores] (https://github.com/your/project/contributors) que participaron en este proyecto.
 
