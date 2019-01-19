@@ -146,5 +146,5 @@ Consulte también la lista de [colaboradores] (https://github.com/andresflorezp/
 
 ## licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.
 
