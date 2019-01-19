@@ -43,7 +43,7 @@ Los comandos son los siguientes:
 
 En lo siguiente hacemos la configuracion:
 
-![Screenshot](image2.png)
+![Screenshot](imagenes/image2.png)
 
 Si queremos añadir los archivos al repositorio local lo hacemos con **git add .** Para hacer un commit **git commit -m “Descripcion del commit”**.
 
@@ -51,33 +51,33 @@ Siguiendo con los problemas indicados el usuario 1, en este caso Andres Giovanne
 
 Mostramos lo que se realiza en el primer problema Antes que nada debemos traer de el repositorio remoto a donde estamos trabajando para que la rama se actualize para ello utilizamos **git pull –rebase origin master**.
 
-![Screenshot](image3.png)
+![Screenshot](imagenes/image3.png)
 
 y luego seguimos los pasos mencionados anteriormente.
 
-![Screenshot](image4.png)
+![Screenshot](imagenes/image4.png)
 
 Para el primer problema mostramos que es aceptado.
 
-![Screenshot](image5.png)
+![Screenshot](imagenes/image5.png)
 
 Luego el segundo compañero es decir Juan Nicolas Nontoa Caballero hace los comandos básicos de configuración de git es decir el user,email,remote. 
 
-![Screenshot](image6.png)
+![Screenshot](imagenes/image6.png)
 
 **git pull origin master-→ Permite traer las cosas de la rama** y luego resuelve el problema.
 
-![Screenshot](image7.png)
+![Screenshot](imagenes/image7.png)
 
 Luego hacemos git pull origin master para traer los cambios y por ultimo subir el reporte al github.
 
-![Screenshot](image8.png)
+![Screenshot](imagenes/image8.png)
 
 ## Parte MAVEN
 
 **mvn archetype:generate -B -DgroupId=edu.eci -DartifactId=file-spy**
 
-![Screenshot](maven1.png)
+![Screenshot](imagenes/maven1.png)
 
 * ¿Qué significa la opción -B en el comando?
        
@@ -116,21 +116,21 @@ Luego hacemos git pull origin master para traer los cambios y por ultimo subir e
 
        Compila el codigo fuente del proyecto y sigue la fase de tests.
        
- ![Screenshot](compile.png)
+ ![Screenshot](imagenes/compile.png)
 
 * Utilizando el terminal ejecuta el comando mvn package. ¿Para qué se usa este comando?
 
        Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
        
-![Screenshot](package.png)
+![Screenshot](imagenes/package.png)
 
 * Utilizando el terminal ejecuta el comando mvn install. ¿Para qué se usa este comando?
 
        Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
        
-![Screenshot](install.png)
+![Screenshot](imagenes/install.png)
 
-![Screenshot](install2.png)
+![Screenshot](imagenes/install2.png)
 
 * Generar un nuevo proyecto de Maven en otra carpeta usando las herramientas de la línea de comandos de maven, este proyecto debe tener como id de grupo "edu.eci" y como artifactId "otro proyecto de maven". 
 
