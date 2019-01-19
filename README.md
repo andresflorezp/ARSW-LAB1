@@ -79,32 +79,31 @@ Luego hacemos git pull origin master para traer los cambios y por ultimo subir e
 
 ![Screenshot](maven1.png)
 
-* What do means the -B option in the command?
+* ¿Qué significa la opción -B en el comando?
        
-* What do means the -D option in the command?
+* ¿Qué significa la opción -D en el comando?
 
-* What do means the groupId, artifactId properties in the command?
+* ¿Qué significa las propiedades groupId, artifactId en el comando?
 
-       groupId es el identificador único de la organización o grupo que crea el proyecto (se podría decir que es el identificador de la aplicación), y artifactId es el identificador único del artefacto principal de este proyecto (se podría decir que es el identificador del módulo
-dentro de la aplicación), es decir, este será el nombre del jar.
+       groupId es el identificador único de la organización o grupo que crea el proyecto (se podría decir que es el identificador de la aplicación), y artifactId es el identificador único del artefacto principal de este proyecto (se podría decir que es el identificador del módulo dentro de la aplicación), es decir, este será el nombre del jar.
 
-* Describe the content of the directory that has been created.
+* Describe el contenido del directorio que se ha creado.
 
        Se creo un proyecto el cual contiene el POM.xml y una carpeta src en la cual tiene dos carpetas, main y test.
 
-* What do means the word SNAPSHOT in the version value?
+* ¿Qué significa la palabra SNAPSHOT en el valor de la versión?
 
        Al indicar SNAPSHOT se quiere decir que es una versión evolutiva, es decir que estamos trabajando para obtener al versión 1.0.
        
-* What is the purpose of the packing tag into the POM file?
+* ¿Cuál es el propósito de la etiqueta de embalaje en el archivo POM?
 
        Con packaging se indica el tipo de empaquetado que hay que hacer con el proyecto. Podemos usar jar, war, ear, pom.
 
-* What is the purpose of the dependencies and dependency tags into the POM file?
+* ¿Cuál es el propósito de las dependencias y las etiquetas de dependencia en el archivo POM?
 
        El proposito de los tags es mantener una estructura ordenada.
 
-The three principal Maven lifecycles areclean, defaultand site. Describe each one.
+* Los tres principales ciclos de vida de Maven son clean, default y site. Describe cada uno de ellos.
 
        Clean Elimina todos los .class y .jar generados. Después de este comando se puede comenzar un compilado desde cero.
  
@@ -112,19 +111,19 @@ The three principal Maven lifecycles areclean, defaultand site. Describe each on
  
        Default no existe como comando de maven.
 
-* Using the terminal execute the command mvn compile. What is this command using for? What are transitive dependencies?
+* Utilizando el terminal ejecuta el comando mvn compile. ¿Para qué se usa este comando? ¿Qué son las dependencias transitivas?
 
        Compila el codigo fuente del proyecto y sigue la fase de tests.
        
  ![Screenshot](compile.png)
 
-* Using the terminal execute the command mvn package. What is this command using for?
+* Utilizando el terminal ejecuta el comando mvn package. ¿Para qué se usa este comando?
 
        Toma el codigo compilado y empaquetarlo en su formato distribuible, como un JAR.
        
 ![Screenshot](package.png)
 
-* Using the terminal execute the command mvn install. What is this command using for?
+* Utilizando el terminal ejecuta el comando mvn install. ¿Para qué se usa este comando?
 
        Instalar el paquete en el repositorio local, para su uso como una dependencia en otros proyectos a nivel local.
        
@@ -132,9 +131,9 @@ The three principal Maven lifecycles areclean, defaultand site. Describe each on
 
 ![Screenshot](install2.png)
 
-* Generate a new maven project in other folder using the maven command line tools, this project should has as groupId "edu.eci" and as artifactId "another-maven-project". 
+* Generar un nuevo proyecto de Maven en otra carpeta usando las herramientas de la línea de comandos de maven, este proyecto debe tener como id de grupo "edu.eci" y como artifactId "otro proyecto de maven". 
 
-* Replace the code of the App.java class with the following code and do all the necessary steps to compile the code.
+* Reemplace el código de la clase App.java con el siguiente código y realice todos los pasos necesarios para compilar el código.
 
 ## Autores
 
