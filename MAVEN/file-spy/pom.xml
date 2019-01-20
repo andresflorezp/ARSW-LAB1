@@ -28,13 +28,6 @@
         <artifactId>tika-parsers</artifactId>
         <version>1.20</version>
     </dependency>-->
-    <dependency>
-    	<groupId>edu.eci</groupId>
-    	<artifactId>another-maven-project</artifactId>
-    	<version>1.0-SNAPSHOT</version>
-    	<scope>system</scope>
-    	<systemPath>${basedir}/../another-maven-project/target/another-maven-project-1.0-SNAPSHOT.jar</systemPath>
-    </dependency>
   </dependencies>
    <build>
     <plugins>

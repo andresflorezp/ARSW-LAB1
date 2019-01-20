@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FileSpy",
+            "request": "launch",
+            "mainClass": "edu.eci.FileSpy",
+            "projectName": "file-spy"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "edu.eci.App",
+            "projectName": "another-maven-project"
+        }
+    ]
+}
