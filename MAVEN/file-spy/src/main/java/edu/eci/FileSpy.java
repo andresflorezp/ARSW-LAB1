@@ -6,7 +6,7 @@ import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 
 public class FileSpy {
 	private static final String FILE_TYPE = "text/csv";
-	private static final String DIR_TO_WATCH = new java.io.File("").getAbsolutePath()+"/src/main/java/edu/eci/resources";
+	private static final String DIR_TO_WATCH = new java.io.File("").getAbsolutePath()+"/src/main/resources";
 	public static void main(String[] args) throws Exception {
 		Path dir = Paths.get(DIR_TO_WATCH);
         Tika tika = new Tika();

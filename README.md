@@ -33,13 +33,25 @@ Luego de eso debemos hacer la configuracion basica de usuario,correo,y remote.
 
 Los comandos son los siguientes:
 
-* **git init-→Permite iniciar el repositorio**
+* **git init**
 
-* **git config –global user.name “nombre-del-usuaio”**
+    > El git initcomando crea un nuevo repositorio Git. Se puede usar para convertir un proyecto existente no versionado en un repositorio Git o inicializar un repositorio nuevo y vacío
 
-* **git config –global user.mail “correo-del-usuaio”**
+* **git config –global user.name**
+    > Establece un nombre de usuario git
+
+* **git config –global user.mail**
+    > Establece un correo de usuario git
 
 * **git remote add origin https://github.com/nombre_user/name_repositorio.git**
+
+    > Añade un direccion remota al repositorio
+
+* **git pull origin master**
+    > Permite traer los datos de nuestro git remoto
+    a nuestro git local
+* **git pull --rebase origin master**
+    > Permite bajar la rama y mezclar en un orden lineal con el master
 
 En lo siguiente hacemos la configuracion:
 
@@ -316,49 +328,19 @@ Luego de hacer la estructura queda de la siguiente forma
 ├── pom.xml
 ├── src
 │   ├── main
-│   │   └── java
-│   │       └── edu
-│   │           └── eci
-│   │               ├── FileSpy.java
-│   │               └── resources
-│   │                
+│   │   ├── java
+│   │   │   └── edu
+│   │   │       └── eci
+│   │   │           └── FileSpy.java
+│   │   └── resources
+│   │     
+│   │       
 │   └── test
-│       └── java
-│           └── edu
-│               └── eci
-│                   └── AppTest.java
-└── target
-    ├── classes
-    │   └── edu
-    │       └── eci
-    │           ├── FileSpy.class
-    ├── file-spy-1.0-SNAPSHOT.jar
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    ├── maven-archiver
-    │   └── pom.properties
-    ├── maven-status
-    │   └── maven-compiler-plugin
-    │       ├── compile
-    │       │   └── default-compile
-    │       │       ├── createdFiles.lst
-    │       │       └── inputFiles.lst
-    │       └── testCompile
-    │           └── default-testCompile
-    │               ├── createdFiles.lst
-    │               └── inputFiles.lst
-    ├── surefire-reports
-    │   ├── TEST-edu.eci.AppTest.xml
-    │   └── edu.eci.AppTest.txt
-    └── test-classes
-        └── edu
-            └── eci
-                └── AppTest.class
-
-
-
+│       ├── java
+│       │   └── edu
+│       │       └── eci
+│       │           └── AppTest.java
+│       └── resources
 
 ```
 ### Archivo Pom
