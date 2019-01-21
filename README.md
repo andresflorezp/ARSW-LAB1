@@ -575,7 +575,7 @@ public class App
 ```
 * Corriendo la aplicacion 
 
-![Screenshot](imagenes/run.png)
+![Screenshot](imagenes/run.PNG)
 
 Y se nota como encuentra los archivo .csv
 
