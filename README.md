@@ -52,7 +52,9 @@ Los comandos son los siguientes:
     a nuestro git local
 * **git pull --rebase origin master**
     > Permite bajar la rama y mezclar en un orden lineal con el master
-
+    
+* **git push origin master**
+    > Permite subir la informacion del git local al git remoto
 En lo siguiente hacemos la configuracion:
 
 ![Screenshot](imagenes/image2.png)
@@ -189,7 +191,7 @@ public class Anagram {
 
 Luego el usuario 1 hace
 
-       push origin master
+       git push origin master
 esto para subirlo al repositorio en github
 
 ![Screenshot](imagenes/image4.png)
