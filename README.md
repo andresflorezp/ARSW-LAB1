@@ -252,8 +252,10 @@ Antes que nada deberemos crear un projecto maven lo realizaremos con un arqueoti
 ![Screenshot](imagenes/maven1.png)
 ### Creando Projecto Maven
 * ¿Qué significa la opción -B en el comando?
+> -B es una forma abreviada de --batch-mode que permite no usar la forma interactiva ese decir -DinteractiveMode=false
        
 * ¿Qué significa la opción -D en el comando?
+> Se utiliza para definir una proiedad del sistema. Esta opción es la más utilizada para personalizar el comportamiento de los complementos de Maven.
 
 * ¿Qué significa las propiedades groupId, artifactId en el comando?
 
