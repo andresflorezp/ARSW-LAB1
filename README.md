@@ -565,6 +565,19 @@ public class App
 
 Y se nota como encuentra los archivo .csv
 
+### Dependencias directas y transitivas
+
+* Hay dos tipos de dependencias de Maven:
+
+> Directas: Estas son las dependencias definidas en el archivo pom.xml en la sección <dependencies/>.
+
+> Transitvas: Estas son dependencias que dependen de sus dependencias directas.
+
+dependencias con **provided** alcance están destinadas a:
+
+>de ser excluidas del artefacto final (por ejemplo para war archivos que no desea incluir servlet-api, servlet-jsp, etc.).
+
+>O anulado: cuando el proyecto que hereda estos define una versión y/o anula el alcance.
 
 ## Autores
 
